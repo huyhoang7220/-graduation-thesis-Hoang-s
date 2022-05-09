@@ -1,0 +1,10 @@
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\bin\Release\ManageRoles.ViewModels.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\bin\Release\ManageRoles.ViewModels.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\bin\Release\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\bin\Release\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\bin\Release\ManageRoles.Models.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\obj\Release\ManageRoles.ViewModels.csproj.AssemblyReference.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\obj\Release\ManageRoles.ViewModels.csproj.CoreCompileInputs.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\obj\Release\ManageRoles.ViewModels.csproj.CopyComplete
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\obj\Release\ManageRoles.ViewModels.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.ViewModels\obj\Release\ManageRoles.ViewModels.pdb

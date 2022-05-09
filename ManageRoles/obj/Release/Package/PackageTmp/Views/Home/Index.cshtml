@@ -1,0 +1,424 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+ <!-- BANNER -->
+<div class="banner">
+    <div class="banner_slider swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="~/images/index/banner/slider_1.jpg" alt="" width="100%">
+            </div>
+            <div class="swiper-slide">
+                <img src="~/images/index/banner/slider_2.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination banner_slider_pagination"></div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+    <div class="content_about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-sm-6 content_about_left">
+                    <img src="~/images/index/content/about.jpg" alt="" width="100%">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-sm-6">
+                    <div class="content_about_right">
+                        <span>Evo Trang Sức</span>
+                        <h3>CỬA HÀNG <span>TRANG SỨC</span></h3>
+                        <p>Mỗi biểu tượng mang một ý nghĩa riêng, do đó một món trang sức biểu tượng sẽ hàm ý nhiều điều. Thế thì bạn đã hiểu về ý nghĩa món trang sức mình đeo, được tặng hoặc tặng cho người khác chưa ?</p>
+                        <div class="mt-4">
+                            <a href="/home/liststore" title="Cửa hàng" class="button button-dark">Cửa hàng</a>
+                            <a href="#" title="Xem thêm" class="button button-light">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_product-best">
+        <div class="container text-center title">
+            <span>Evo Trang Sức</span>
+            <h3><a href="san-pham-moi" title="Sản phẩm nổi bật">Sản phẩm nổi bật</a></h3>
+            <p>Hãy đến với chúng tôi để có những món quà phù hợp và ý nghĩa nhất.</p>
+        </div>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-sm-12 ads">
+                    <img src="~/images/index/content/ads_top.jpg" alt="" width="100%" class="col-xl-12 col-lg-12 col-sm-6 col-6">
+                    <img src="~/images/index/content/ads_under.jpg" alt="" width="100%" class="col-xl-12 col-lg-12 col-sm-6 col-6">
+                </div>
+                <div class="col-xl-9 col-lg-9 col-sm-12 list_product-best">
+                    <div class="row flex-wrap justify-content-between" style="padding-right: 15px;">
+                        @if(Enumerable.Count(ViewBag.ListProduct) >0)
+                        {
+                            foreach (var item in @ViewBag.ListProduct)
+                            {
+                                <div class="item_product">
+                                    <div class="tag-sale">
+                                        <span>-31%</span>
+                                    </div>
+                                    <div class="product_image">
+                                        <a href="/Home/ProductDetail/@item.Id">
+                                            <img src="~/images/index/content/@item.AnhDaiDien" alt="" width="100%">
+                                        </a>
+
+                                        <div class="option-buy row justify-content-between">
+                                            <p onclick="buyProduct(@item.Id)">Mua Ngay</p>
+                                            <p onclick="addProduct(@item.Id)">Thêm Vào Giỏ</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_info">
+                                        <p class="product-name">
+                                            <a href='/Home/ProductDetail/@item.Id' title='@item.Ten'>@item.Ten</a>
+                                        </p>
+                                        <div class="product-price text-center">
+                                            <p class="price-real">
+                                                 @String.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:0,00}", item.Gia) ₫
+                                                <span class="price-before-sale">
+                                                    <del class="">1.500.000₫</del>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }else
+                        {
+                            <h4>Không tìm thấy sản phẩm nào</h4>
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-best container">
+                <div style="width: 100%; overflow: hidden;">
+                    <div class="product-best_slide swiper-container">
+                        <div class="swiper-wrapper">
+                            @foreach (var item in ViewBag.DanhMuc)
+                            {
+                                <div class="swiper-slide">
+                                    <a href="/home/product?category=@item.Id" style="color:#000">
+                                        <img src="~/images/index/content/@item.Anh" width="100%" alt="">
+                                    </a>
+                                    
+                                    <h5 class="product_name"><a href="/home/product?category=@item.Id" style="color:#000">@item.Ten</a></h5>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="product-best_slide-next swiper-button-next"></div>
+                <div class="product-best_slide-prev swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content_list-product mt-5">
+        <div class="container">
+            <div class="list-product_title text-center mb-5">
+                <span>Thế giới phụ kiện</span>
+                <h3><a href="san-pham-moi" title="Trang sức cưới hỏi">Trang sức cưới hỏi</a></h3>
+                <p>Chọn nhẫn cầu hôn và nhẫn đính hôn kim cương, vàng, đá CZ đẹp và sang trọng với Evo Trang Sức</p>
+            </div>
+            <div class="list-product container">
+                <div style="width: 100%; overflow: hidden;">
+                    <div class="list-product_slide swiper-container">
+                        <div class="swiper-wrapper">
+                            @*start*@
+                            @if (Enumerable.Count(ViewBag.ListLQ) > 0)
+                            {
+                                foreach (var item in @ViewBag.ListLQ)
+                                {
+                                    <div class="item_product swiper-slide">
+                                        <div class="tag-sale">
+                                            <span>-31%</span>
+                                        </div>
+                                        <div class="product_image">
+                                            <a href="/Home/ProductDetail/@item.Id">
+                                                <img src="~/images/index/content/@item.AnhDaiDien" alt="" width="100%">
+                                            </a>
+                                            <div class="option-buy row justify-content-between">
+                                                <p onclick="buyProduct(@item.Id)">Mua Ngay</p>
+                                                <p onclick="addProduct(@item.Id)">Thêm Vào Giỏ</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="product_info">
+                                            <p class="product-name">
+                                                <a href='/Home/ProductDetail/@item.Id' title='@item.Ten'>@item.Ten</a>
+                                            </p>
+                                            <div class="product-price text-center">
+                                                <p class="price-real">
+                                                    @String.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:0,00}", item.Gia) ₫
+                                                    <span class="price-before-sale">
+                                                        <del class="">1.500.000₫</del>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <h4>Không tìm thấy sản phẩm nào</h4>
+                            }
+                          
+                            @*end*@
+                        </div>
+                    </div>
+                </div>
+                <div class="list-product_slide_next swiper-button-next"></div>
+                <div class="list-product_slide_prev swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- NEW COLLECTION -->
+<div class="new-collection mt-5" style="background-image: url('../images/index/new-collection/bg.jpg');">
+    <div class="container">
+        <div class="row justify-content-center new-collection_title">
+            <h3>BST Trang Sức Vàng Ý</h3>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="banner1">
+                <img src="~/images/index/new-collection/banner1.jpg" alt="" width="100%">
+            </div>
+            <div class="banner2">
+                <img src="~/images/index/new-collection/banner2.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- NEWSPAPER -->
+<div class="newspaper mt-4 mb-5">
+    <div class="newspaper_title text-center mb-5">
+        <span>Tạp chí</span>
+        <h3><a href="#" title="Tin tức nổi bật">Tin tức nổi bật</a></h3>
+        <p>Luôn cập nhật xu thế thời trang mới nhất để đáp ứng nhu cầu khách hàng.</p>
+    </div>
+
+    <div class="list-newspaper container">
+        <div style="width: 100%; overflow: hidden;">
+            <div class="list-newspaper_slide swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper1.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper2.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper3.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper2.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper1.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                    <div class="item_newspaper swiper-slide">
+                        <div class="item_newspaper_image">
+                            <a href="#">
+                                <img src="~/images/index/newspaper/newspaper3.jpg" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="item_newspaper_des">
+                            <h3>
+                                <a href="#">Mùa se lạnh đã về đến nơi rồi, không bắt ngay 2 trend Thu Đông này thì chờ đến bao giờ? alo alo alo</a>
+                            </h3>
+                            <p>
+                                <a href="#">
+                                    Tone màu ấm áp, họa tiết lấy cảm hứng hoàng gia xa hoa… và những item nào sẽ chinh phục tín đồ thời trang ...
+                                </a>
+                            </p>
+                            <a href="#" class="read-more">Đọc tiếp</a>
+                        </div>
+                        <div class="post-date">
+                            <span class="post-date-day">14</span>
+                            <span class="post-date-month">Thg 10, 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-newspaper_slide_next swiper-button-next"></div>
+        <div class="list-newspaper_slide_prev swiper-button-prev"></div>
+    </div>
+</div>
+<script>
+        function getCookie(cname) {
+                                let name = cname + "=";
+                                let decodedCookie = decodeURIComponent(document.cookie);
+                                let ca = decodedCookie.split(';');
+                                for (let i = 0; i < ca.length; i++) {
+                                    let c = ca[i];
+                                    while (c.charAt(0) == ' ') {
+                                        c = c.substring(1);
+                                    }
+                                    if (c.indexOf(name) == 0) {
+                                        return c.substring(name.length, c.length);
+                                    }
+                                }
+                                return "";
+                            }
+
+                            function buyProduct(id) {
+                                var user = getCookie("userInfo");
+
+                                if (user == "" || user == null) {
+                                    window.location.href = "/home/login";
+                                } else {
+                                    window.location.href = "/home/BuyProduct/"+id;
+
+                                }
+                            }
+
+                            function addProduct(id) {
+                                var user = getCookie("userInfo");
+
+                                if (user == "" || user == null) {
+                                    window.location.href = "/home/login";
+                                } else {
+            $.ajax({
+                                        type: "post",
+                url: "/Home/AddToCart",
+                data: {
+                                            idSP: id
+                },
+                success: function (res) {
+                                            if (res.success) {
+                    $.ajax({
+                                                    type: "get",
+                        url: "/Home/ReloadCart",
+                        success: (ress) => {
+                            if (ress.success) {
+                                Swal.fire({
+                                    position: 'top-end',
+                                    icon: 'success',
+                                    title: "Đã thêm vào giỏ hàng",
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
+
+                                location.reload();
+                            }
+                        }
+                        })
+        } else {
+                                                Swal.fire({
+                                                    position: 'top-end',
+        icon: 'error',
+        title: "Thêm vào giỏ hàng bị lỗi",
+        showConfirmButton: false,
+        timer: 1500
+                                                })
+        }
+                                        },
+        error: function () {
+
+                                        }
+                                    })
+        }
+
+                            }
+</script>

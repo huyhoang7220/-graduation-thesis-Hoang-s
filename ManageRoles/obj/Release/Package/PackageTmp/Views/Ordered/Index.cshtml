@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Danh sách đơn hàng";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+<h2>Danh sách đơn hàng của khách đã đặt</h2>
+
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Thông tin đặt hàng</th>
+            <th>Ngày đặt</th>
+            <th>Người đặt</th>
+            <th>Giá bán</th>
+            <th>Số lượng</th>
+            <th>Tình trạng</th>
+            <th class="dt-center">Cập nhật</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in @ViewBag.Data)
+        {
+            <tr>
+                <td>@c.TenSanPham</td>
+                <td>@c.DiaChiGiao</td>
+                <td>@c.NgayTao</td>
+                <td>@c.NguoiDat</td>
+                <td>@c.GiaBan</td>
+                <td>@c.SoLuong</td>
+                <td>
+                    @if (c.IdTinhTrangDonHang == 1)
+                    {
+                        <p class="btn btn-danger">@c.TinhTrangDonHang</p>
+                    }
+                    else if (c.IdTinhTrangDonHang == 2)
+                    {
+                        <p class="btn btn-success">@c.TinhTrangDonHang</p>
+                    }
+                    else
+                    {
+                        <p class="btn btn-primary">@c.TinhTrangDonHang</p>
+                    }
+
+                </td>
+                <td class="dt-center editor-edit"><a href="/Ordered/Edit/@c.Id"><i class="fa fa-pencil" /> Cập nhật</a></td>
+                @*<td class="dt-center editor-delete">
+                    @Html.ActionLink(" Xóa",
+                "Remove", "Ordered", new { id = @c.Id },
+                new { @class = "fa fa-trash", onclick = "return confirm('Bạn có thực sự muốn xóa: " + @c.TenSanPham + " không ?')" })*@
+</tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+       
+        $('#example')
+            .DataTable({
+                "language": {
+                    "lengthMenu": "Số bản ghi trên 1 trang _MENU_",
+                    "zeroRecords": "Không có dữ liệu!",
+                    "info": "Trang _PAGE_ / _PAGES_",
+                    "infoEmpty": "Không có dữ liệu",
+                    "infoFiltered": "(Đã tìm thấy _MAX_ dữ liệu)",
+                    "search": "Tìm kiếm:",
+                    "paginate": {
+                        "first": "Đầu tiên",
+                        "last": "Cuối cùng",
+                        "next": "Kế tiếp",
+                        "previous": "Kế sau"
+                    },
+                }
+            });
+    });
+</script>

@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Lưu trú";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+<h2>Danh sách lưu trú</h2>
+
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Tên cơ sở lưu trú</th>
+            <th>Địa chỉ cơ sở lưu trú</th>
+            <th>Số điện thoại cơ sở lưu trú</th>
+            <th class="dt-center">Sửa</th>
+            <th class="dt-center">Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var calendar in @ViewBag.Data)
+        {
+            <tr>
+                <td>@calendar.TenLT</td>
+                <td>@calendar.DiaChiLT</td>
+                <td>@calendar.SoDTLT</td>
+                <td class="dt-center editor-edit"><a href="/Luutru/Edit/@calendar.Id"><i class="fa fa-pencil" /> Sửa</a></td>
+                <td class="dt-center editor-delete">
+                    @Html.ActionLink(" Xóa",
+                "Remove", "LuuTru", new { id = @calendar.Id },
+                new { @class = "fa fa-trash", onclick = "return confirm('Bạn có thực sự muốn xóa cơ sở lưu trú: " + @calendar.TenLT + " không ?')" })
+</tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+       
+        $('#example')
+            .DataTable({
+                "language": {
+                    "lengthMenu": "Số bản ghi trên 1 trang _MENU_",
+                    "zeroRecords": "Không có dữ liệu!",
+                    "info": "Trang _PAGE_ / _PAGES_",
+                    "infoEmpty": "Không có dữ liệu",
+                    "infoFiltered": "(Đã tìm thấy _MAX_ dữ liệu)",
+                    "search": "Tìm kiếm:",
+                    "paginate": {
+                        "first": "Đầu tiên",
+                        "last": "Cuối cùng",
+                        "next": "Kế tiếp",
+                        "previous": "Kế sau"
+                    },
+                }
+            });
+    });
+</script>

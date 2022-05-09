@@ -1,0 +1,435 @@
+﻿@{
+    ViewBag.Title = ViewBag.Tittle;
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<link rel="stylesheet" href="~/Template/product/style.css">
+<link rel="stylesheet" href="~/Template/product/responsive.css">
+ <!-- PATH BAR -->
+<div class="path-bar">
+    <div class="container">
+        <div class="row">
+            <a href="#">Trang chủ</a>
+            <span>/</span>
+            <a href="#">@ViewBag.Tittle</a>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+    <div class="demo-gallery">
+        <div class="container">
+            <div class="demo-gallery_slide swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="demo-gallery_item swiper-slide">
+                        <img src="~/images/product/content/demo1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery_item swiper-slide">
+                        <img src="~/images/product/content/demo2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery_item swiper-slide">
+                        <img src="~/images/product/content/demo3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery_item swiper-slide">
+                        <img src="~/images/product/content/demo4.jpg" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="demo-gallery_pagination swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="demo-gallery-mobile">
+        <div class="container">
+            <div class="demo-gallery-mobile_slide swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="demo-gallery-mobile_item swiper-slide">
+                        <img src="~/images/product/content/demo1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery-mobile_item swiper-slide">
+                        <img src="~/images/product/content/demo2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery-mobile_item swiper-slide">
+                        <img src="~/images/product/content/demo3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="demo-gallery-mobile_item swiper-slide">
+                        <img src="~/images/product/content/demo4.jpg" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="demo-gallery-mobile_pagination swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="list-info">
+        <div class="container">
+            <div class="row list-info_main">
+                <ul>
+                    <li>
+                        <img src="~/images/product/content/listinfo1.svg" alt="Miễn phí đổi 30 ngày" width="17%">
+                        <p>Miễn phí đổi 30 ngày</p>
+                    </li>
+                    <li>
+                        <img src="~/images/product/content/listinfo2.svg" alt="Đúng chất lượng kim cương" width="17%">
+                        <p>Đúng chất lượng kim cương</p>
+                    </li>
+                    <li>
+                        <img src="~/images/product/content/listinfo3.svg" alt="Đúng hàm lượng" width="17%">
+                        <p>Đúng hàm lượng</p>
+                    </li>
+                    <li>
+                        <img src="~/images/product/content/listinfo4.svg" alt="Bảo hành chính hãng" width="17%">
+                        <p>Bảo hành chính hãng</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content_main mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="content_main-left col-xl-3 col-lg-3">
+                    <div class="list-category">
+                        <div class="title">
+                            Danh mục
+                        </div>
+                        <ul>
+                            <li><a href="/">Trang Chủ</a></li>
+                            <li><a href="/home/intro">Giới Thiệu</a></li>
+                            <li class="has-drop-menu">
+                                <a href="/home/product">Sản Phẩm</a>
+                                @*<span class="show-drop-menu"></span>
+                                <ul class="drop-menu">
+                                    <li class="has-drop-menu">
+                                        <a href="#">Trang Sức</a>
+                                        <span class="show-drop-menu"></span>
+                                        <ul class="drop-menu">
+                                            <li>
+                                                <a href="#">Nhẫn</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bông Tai & Hoa Tai</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mặt Dây Chuyền</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-drop-menu">
+                                        <a href="#">Trang Sức Cưới</a>
+                                        <span class="show-drop-menu"></span>
+                                        <ul class="drop-menu">
+                                            <li>
+                                                <a href="#">Nhẫn</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bông Tai & Hoa Tai</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mặt Dây Chuyền</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Trang Sức Kim Cương</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Quà Tặng</a>
+                                    </li>
+                                </ul>*@
+                            </li>
+                            <li class="has-drop-menu">
+                                <a href="#">Tin Tức</a>
+                                <span class="show-drop-menu"></span>
+                                <ul class="drop-menu">
+                                    @*<li class="has-drop-menu">
+                                        <a href="#">Trang Sức</a>
+                                        <span class="show-drop-menu"></span>
+                                        <ul class="drop-menu">
+                                            <li>
+                                                <a href="#">Nhẫn</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bông Tai & Hoa Tai</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mặt Dây Chuyền</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-drop-menu">
+                                        <a href="#">Trang Sức Cưới</a>
+                                        <span class="show-drop-menu"></span>
+                                        <ul class="drop-menu">
+                                            <li>
+                                                <a href="#">Nhẫn</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bông Tai & Hoa Tai</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mặt Dây Chuyền</a>
+                                            </li>
+                                        </ul>
+                                    </li>*@
+                                    <li>
+                                        <a href="/home/liststore">Danh sách cửa hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="/home/question">Câu hỏi thường gặp</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="/home/contact">Liên Hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-mobile">
+                        <div class="title">
+                            Lọc sản phẩm
+                        </div>
+                        <i class="fas fa-angle-down show-filter-mobile"></i>
+                    </div>
+                    <div class="filter-price">
+                        <div class="title">
+                            Giá sản phẩm
+                        </div>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="" id="priceUnder100">
+                                <div class="fake-checkbox" data-type="1"></div>
+                                <label for="priceUnder100">
+                                    Giá dưới 100.000
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="priceUnder200">
+                                <div class="fake-checkbox" data-type="2"></div>
+                                <label for="priceUnder200">
+                                    100.000 - 200.000
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="priceUnder300">
+                                <div class="fake-checkbox" data-type="3"></div>
+                                <label for="priceUnder300">
+                                    200.000 - 300.000
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="priceUnder500">
+                                <div class="fake-checkbox" data-type="4"></div>
+                                <label for="priceUnder500">
+                                    300.000 - 500.000
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="priceUnder1m">
+                                <div class="fake-checkbox" data-type="5"></div>
+                                <label for="priceUnder1m">
+                                    500.000 - 1.000.000
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="priceOver1m">
+                                <div class="fake-checkbox" data-type="6"></div>
+                                <label for="priceOver1m">
+                                    Giá trên 1.000.000
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    @*<div class="filter-size">
+                        <div class="title">
+                            Kích thước
+                        </div>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="" id="sizeBig">
+                                <div class="fake-checkbox"></div>
+                                <label for="sizeBig">
+                                    Lớn
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="sizeMedium">
+                                <div class="fake-checkbox"></div>
+                                <label for="sizeMedium">
+                                    Vừa
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="sizeSmall">
+                                <div class="fake-checkbox"></div>
+                                <label for="sizeSmall">
+                                    Nhỏ
+                                </label>
+                            </li>
+                        </ul>
+                    </div>*@
+                </div>
+                <div class="content_main-right col-xl-9 col-lg-9 col-sm-12">
+                    <div class="row option-sort-list">
+                        <div class="mr-3">
+                            <p style="margin-bottom: 0;">Xếp theo: </p>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="sortname" id="sortNameAZ">
+                                <div class="fake-checkbox" data-type="1"  name="sortname"></div>
+                                <label for="sortNameAZ">Tên A-Z</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sortname" id="sortNameZA">
+                                <div class="fake-checkbox" data-type="2"  name="sortname"></div>
+                                <label for="sortNameZA">Tên Z-A</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sortname" id="newProduct">
+                                <div class="fake-checkbox"  data-type="3" name="sortname"></div>
+                                <label for="newProduct">Sản phẩm mới</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sortname" id="priceUp">
+                                <div class="fake-checkbox" data-type="4"  name="sortname"></div>
+                                <label for="priceUp">Giá tăng dần</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sortname" id="priceDown">
+                                <div class="fake-checkbox" data-type="5"  name="sortname"></div>
+                                <label for="priceDown">Giá giảm dần</label>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                    <div class="row flex-wrap justify-content-between">
+                        @if (Enumerable.Count(ViewBag.ListProduct) > 0)
+                        {
+                            foreach (var item in @ViewBag.ListProduct)
+                            {
+                                <div class="item_product">
+                                    <div class="tag-sale">
+                                        <span>-31%</span>
+                                    </div>
+                                    <div class="product_image">
+                                        <a href="/Home/ProductDetail/@item.Id">
+                                            <img src="~/images/index/content/@item.AnhDaiDien" alt="" width="100%">
+                                        </a>
+                                        <div class="option-buy row justify-content-between">
+                                            <p onclick="buyProduct(@item.Id)">Mua Ngay</p>
+                                            <p onclick="addProduct(@item.Id)">Thêm Vào Giỏ</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_info">
+                                        <p class="product-name">
+                                            <a href='/Home/ProductDetail/@item.Id' title='@item.Ten'>@item.Ten</a>
+                                        </p>
+                                        <div class="product-price text-center">
+                                            <p class="price-real">
+                                                @String.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:0,00}", item.Gia) ₫
+                                                <span class="price-before-sale">
+                                                    <del class="">1.500.000₫</del>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="row">
+                                <div class="alert alert-warning show green-alert" role="alert" style="width: 100%;">
+                                    <button type="button" class="close" data-dismiss="alert" onclick="document.querySelector('.alert-warning').style.display = 'none'">
+                                        <span aria-hidden="true">
+                                            ×
+                                        </span>
+                                        <span class="sr-only">Close</span>
+                                    </button>
+                                    Không có sản phẩm nào trong danh mục này.
+                                </div>
+                            </div>
+                        }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.4.js"></script>
+<script src="~/js/product.js"></script>
+<script>
+        function getCookie(cname) {
+                                let name = cname + "=";
+                                let decodedCookie = decodeURIComponent(document.cookie);
+                                let ca = decodedCookie.split(';');
+                                for (let i = 0; i < ca.length; i++) {
+                                    let c = ca[i];
+                                    while (c.charAt(0) == ' ') {
+                                        c = c.substring(1);
+                                    }
+                                    if (c.indexOf(name) == 0) {
+                                        return c.substring(name.length, c.length);
+                                    }
+                                }
+                                return "";
+                            }
+
+                            function buyProduct(id) {
+                                var user = getCookie("userInfo");
+
+                                if (user == "" || user == null) {
+                                    window.location.href = "/home/login";
+                                } else {
+                                    window.location.href = "/home/BuyProduct/"+id;
+
+                                }
+                            }
+
+                            function addProduct(id) {
+                                var user = getCookie("userInfo");
+
+                                if (user == "" || user == null) {
+                                    window.location.href = "/home/login";
+                                } else {
+            $.ajax({
+                                        type: "post",
+                url: "/Home/AddToCart",
+                data: {
+                                            idSP: id
+                },
+                success: function (res) {
+                                            if (res.success) {
+                    $.ajax({
+                                                    type: "get",
+                        url: "/Home/ReloadCart",
+                        success: (ress) => {
+                            if (ress.success) {
+                                Swal.fire({
+                                    position: 'top-end',
+                                    icon: 'success',
+                                    title: "Đã thêm vào giỏ hàng",
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
+
+                                location.reload();
+                            }
+                        }
+                        })
+        } else {
+                                                Swal.fire({
+                                                    position: 'top-end',
+        icon: 'error',
+        title: "Thêm vào giỏ hàng bị lỗi",
+        showConfirmButton: false,
+        timer: 1500
+                                                })
+        }
+                                        },
+        error: function () {
+
+                                        }
+                                    })
+        }
+
+                            }
+</script>

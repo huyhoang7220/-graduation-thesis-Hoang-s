@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Xác nhận đăng ký KBTT";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+<h2>Tìm kiếm thông tin KBTT</h2>
+
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Tên cơ sở lưu trú</th>
+            <th>Loại cơ sở lưu trú</th>
+            <th>Người đại diện</th>
+            <th>Số CMND (Người đại diện)</th>
+            <th>Số điện thoại (Người đại diện)</th>
+            <th>Email (Người đại diện)</th>
+            <th>Quận huyện</th>
+            <th>Phường xã</th>
+            <th>Địa chỉ</th>
+            <th>Cơ quan khai báo</th>
+            @*<th class="dt-center">Xóa</th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var calendar in @ViewBag.Data)
+        {
+            <tr>
+                <td>@calendar.TenCSLT</td>
+                <td>@calendar.LoaiCSLT</td>
+                <td>@calendar.NguoiDaiDien</td>
+                <td>@calendar.SoCMND</td>
+                <td>@calendar.SoDT</td>
+                <td>@calendar.Email</td>
+                <td>@calendar.QuanHuyen</td>
+                <td>@calendar.PhuongXa</td>
+                <td>@calendar.DiaChi</td>
+                <td>@calendar.CoQuanKB</td>
+                @*<td class="dt-center editor-delete"><a href="/FollowYT/Remove/@calendar.MaTDYTId"><i class="fa fa-trash" /></a></td>*@
+            </tr>
+        }
+    </tbody>
+    @*<tfoot>
+            <tr>
+                <th>Cán bộ</th>
+                <th>Chức vụ</th>
+                <th>Thời gian trực</th>
+                <th>Địa điểm trực</th>
+                <th>Số điện thoại của cán bộ</th>
+                <th>Ngày tạo lịch</th>
+            </tr>
+        </tfoot>*@
+</table>
+
+<script>
+    function confirmKBTT(id) {
+        $.ajax({
+            type: "Post",
+            url: "/register/Edit",
+            data: {
+                id: id,
+                "__RequestVerificationToken": $('input[name=__RequestVerificationToken]').val()
+            },
+            success: function (res) {
+                if(res.success){
+                    location.reload();
+                }
+            }
+        })
+    }
+    $(document).ready(function () {
+       
+        $('#example')
+            .DataTable({
+                "language": {
+                    "lengthMenu": "Số bản ghi trên 1 trang _MENU_",
+                    "zeroRecords": "Không có dữ liệu!",
+                    "info": "Trang _PAGE_ / _PAGES_",
+                    "infoEmpty": "Không có dữ liệu",
+                    "infoFiltered": "(Đã tìm thấy _MAX_ dữ liệu)",
+                    "search": "Tìm kiếm:",
+                    "paginate": {
+                        "first": "Đầu tiên",
+                        "last": "Cuối cùng",
+                        "next": "Kế tiếp",
+                        "previous": "Kế sau"
+                    },
+                }
+            });
+    });
+</script>

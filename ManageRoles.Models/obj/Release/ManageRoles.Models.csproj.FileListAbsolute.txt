@@ -1,0 +1,11 @@
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\ManageRoles.Models.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\System.Web.Mvc.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\Microsoft.Web.Infrastructure.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Release\System.Web.Mvc.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Release\ManageRoles.Models.csproj.AssemblyReference.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Release\ManageRoles.Models.csproj.CoreCompileInputs.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Release\ManageRoles.Models.csproj.CopyComplete
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Release\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Release\ManageRoles.Models.pdb

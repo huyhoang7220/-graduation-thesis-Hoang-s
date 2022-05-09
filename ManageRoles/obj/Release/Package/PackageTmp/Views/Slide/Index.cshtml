@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Danh sách Slide";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+<h2>Danh sách Slide</h2>
+
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Tên slide</th>
+            <th>Ảnh</th>
+            <th class="dt-center">Cập nhật</th>
+            <th class="dt-center">Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in @ViewBag.Data)
+        {
+            <tr>
+                <td>@c.Ten</td>
+                <td><img src="~/images/product_detail/content/@c.Anh" alt="" width="100px"></td>
+                <td class="dt-center editor-edit"><a href="/Slide/Edit/@c.Id"><i class="fa fa-pencil" /> Cập nhật</a></td>
+                <td class="dt-center editor-delete">
+                    @Html.ActionLink(" Xóa",
+                "Remove", "Slide", new { id = @c.Id },
+                new { @class = "fa fa-trash", onclick = "return confirm('Bạn có thực sự muốn xóa: " + @c.Ten + " không ?')" })
+</tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+       
+        $('#example')
+            .DataTable({
+                "language": {
+                    "lengthMenu": "Số bản ghi trên 1 trang _MENU_",
+                    "zeroRecords": "Không có dữ liệu!",
+                    "info": "Trang _PAGE_ / _PAGES_",
+                    "infoEmpty": "Không có dữ liệu",
+                    "infoFiltered": "(Đã tìm thấy _MAX_ dữ liệu)",
+                    "search": "Tìm kiếm:",
+                    "paginate": {
+                        "first": "Đầu tiên",
+                        "last": "Cuối cùng",
+                        "next": "Kế tiếp",
+                        "previous": "Kế sau"
+                    },
+                }
+            });
+    });
+</script>

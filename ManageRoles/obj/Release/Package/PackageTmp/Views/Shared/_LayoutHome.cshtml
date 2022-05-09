@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @*<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1" />
+    <script type="text/javascript">
+        function disableBackButton() {
+            window.history.forward();
+        }
+        setTimeout("disableBackButton()", 0);
+    </script>
+    <title>@ViewBag.Title - HỆ THỐNG QUẢN LÝ KHAI BÁO THÔNG TIN</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>*@
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Template/bootstrap.css">
+    <link rel="stylesheet" href="~/Template/index/style.css">
+    <link rel="stylesheet" href="~/Template/index/responsive.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;300;400&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- TYPE.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="~/Template/sw2/sweetalert2.all.min.js"></script>
+
+    <title>@ViewBag.Title - Evo Trang Sức</title>
+</head>
+<body>
+    <style>
+        .total-cart{
+            position: absolute;
+            top: -5px;
+            font-size: 10px;
+            background: red;
+            width: 20px;
+            text-align: center;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 5px;
+            left: 10px;
+        }
+
+        .cart_delete:hover{
+            color: grey;
+        }
+    </style>
+    <div class="body-content">
+        @*<div style="height:80px; background: #276e44">
+            <div style="font-size:18px; font-weight:bold;height: 60%;color: #ffffff;
+    margin-left: 50px;line-height: 50px;">TRANG KHAI BÁO TẠM TRÚ CHO NGƯỜI NƯỚC NGOÀI</div>
+            <div style="display: flex;justify-content: space-between;">
+                <a href="/Home/Index" style="margin-left: 50px;font-size: 14px;color: #ffffff;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    Trang chủ
+                </a>
+                <a href="/Login/Login" style="margin-right: 50px;font-size: 14px;color: #ffffff;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                    @{
+                        string username = "";
+                        if (Request.Cookies["userInfo"] != null)
+                        {
+                            username = Request.Cookies["userInfo"]["Username"];
+                        }else
+                        {
+                            username = "Đăng nhập";
+                        }
+                    }
+                   @username
+                </a>
+            </div>
+        </div>*@
+
+        <!-- MASK -->
+        <div class="mask">
+        </div>
+        <!-- SEARCH BAR -->
+        <div class="search-bar d-flex justify-content-center">
+            <form action="/" method="get">
+                <div class="input-group d-flex justify-content-end">
+                    <input name="search" type="text" class="search-bar_input form-control" aria-label="Bạn cần tìm gì hôm nay?" placeholder="">
+                    <select name="type">
+                        <option value="product">Sản phẩm</option>
+                        @*<option value="article">Tin tức</option>*@
+                    </select>
+                    <span class="input-group-append">
+                        <button class="btn btn-default" type="submit" aria-label="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+            <i class="fas fa-times close-search_bar" onclick="closeSearchBar()"></i>
+        </div>
+        <!-- HEADER -->
+        <div class="header">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <a href="/"><img src="~/images/header/header_logo.png" alt="" class="header_logo"></a>
+                    
+                    <ul class="menu-main d-flex justify-content-between">
+                        <li class="menu-item">
+                            <a href="/">Trang Chủ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Home/Intro">Giới Thiệu</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/home/product">
+                                Sản Phẩm
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="menu-sub-first">
+                                @foreach (var item in ViewBag.DanhMuc)
+                                {
+                                    <li>
+                                        <a href="/Home/Product?Category=@item.Id">@item.Ten</a>
+                                    </li>
+                                }
+                                @*<li>
+                                    <a href="#">Trang Sức</a>
+                                    <i class="fas fa-angle-down"></i>
+                                    <ul class="menu-sub-second">
+                                        <li>
+                                            <a href="#">Nhẫn</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Bông Tai & Hoa Tai</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mặt Dây Chuyền</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Dây Chuyền</a>
+                                        </li>
+                                    </ul>
+                                </li>*@
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                Tin Tức
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="menu-sub-first">
+                                @*<li><a href="#">Blog Trang Sức</a></li>*@
+                                <li><a href="/Home/ListStore">Danh sách cửa hàng</a></li>
+                                <li><a href="/Home/Question">Câu hỏi thường gặp</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/home/contact">Liên Hệ</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-search" onclick="openSearchBar()"></i>
+                        </li>
+                        @{
+                            string username = "";
+                            string role = "";
+                            if (Request.Cookies["userInfo"] != null)
+                            {
+                                username = Request.Cookies["userInfo"]["Username"];
+                                role = Request.Cookies["userInfo"]["Role"];
+                                if (role == "admin")
+                                {
+                                    <li class="menu-item">
+                                        <i class="far fa-user" style="font-size: 25px; color: #141414; cursor: pointer;"></i>
+                                        <span>@username</span>
+                                        <ul class="menu-sub-first" style="left: unset; right: 0; width: 150px;">
+                                            <li>
+                                                <a href="/Ordered/Index"><i class="fa fa-assistive-listening-systems"></i> Quản trị</a>
+                                            </li>
+                                            <li>
+                                                <a href="/home/cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="/home/shop"><i class="fa fa-shopping-cart"></i> Đơn hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="/Home/Logout"><i class="fa fa-arrow-circle-right"></i> Đăng xuất</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="menu-item">
+                                        <i class="far fa-user" style="font-size: 25px; color: #141414; cursor: pointer;"></i>
+                                        <span>@username</span>
+                                        <ul class="menu-sub-first" style="left: unset; right: 0; width: 150px;">
+                                            <li>
+                                                <a href="/home/cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="/home/shop"><i class="fa fa-shopping-cart"></i> Đơn hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="/Home/Logout"><i class="fa fa-arrow-circle-right"></i> Đăng xuất</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                }
+
+                            }
+                            else
+                            {
+                                <li class="menu-item">
+                                    <i class="far fa-user" style="font-size: 25px; color: #141414; cursor: pointer;"></i>
+                                    <ul class="menu-sub-first" style="left: unset; right: 0; width: 150px;">
+                                        <li>
+                                            <a href="/Home/Login"><i class="fa fa-arrow-circle-left"></i> Đăng nhập</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Home/SignUp"><i class="fa fa-arrow-circle-down"></i> Đăng ký</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        }
+                        
+                        <li class="menu-cart">
+                            <i class="fas fa-shopping-bag" id="cart-id" style="position: relative">
+                                
+                            </i>
+                            @{
+                                if (Request.Cookies["userInfo"] != null)
+                                {
+                                    <div class="cart" id="container-cart">
+
+                                    </div>
+                                }
+                            }
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-mobile">
+            <div class="header-mobile_logo">
+                <img src="~/images/header/header_logo.png" alt="">
+            </div>
+            <ul class="menu-main">
+                <li>
+                    <i class="fas fa-search" onclick="openSearchBar()"></i>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-bag"></i>
+                </li>
+                <li>
+                    <i class="fas fa-bars" onclick="showMenuMobile()"></i>
+                </li>
+            </ul>
+            <ul class="menu-sub-mobile">
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li class="has-sub-menu">
+                    <div class="row justify-content-between">
+                        <a href="#">Sản Phẩm</a>
+                        <i class="fas fa-angle-down show-sub-menu"></i>
+                    </div>
+                    <ul class="sub-menu-hide">
+                        <li><a href="#">option 1</a></li>
+                        <li><a href="#">option 1</a></li>
+                        <li><a href="#">option 1</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <div class="row justify-content-between">
+                        <a href="#">Tin Tức</a>
+                        <i class="fas fa-angle-down show-sub-menu"></i>
+                    </div>
+                    <ul class="sub-menu-hide">
+                        <li><a href="#">option 1</a></li>
+                        <li><a href="#">option 1</a></li>
+                        <li><a href="#">option 1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên Hệ</a></li>
+
+                @{
+                    string usernameMobile = "";
+                    if (Request.Cookies["userInfo"] != null)
+                    {
+                        usernameMobile = Request.Cookies["userInfo"]["Username"];
+
+                        <li>
+                            <a href="/home/logout"> @usernameMobile 
+                                <i class="fas fa-sign-in-alt"></i>
+                                Đăng Xuất
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="/home/login">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Đăng Nhập
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/home/signup">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Đăng Ký
+                            </a>
+                        </li>
+                    }
+                }
+               
+            </ul>
+        </div>
+
+        @RenderBody()
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-sm-12 col-12">
+                        <img src="~/images/footer/footer_logo.png" alt="" width="45%">
+                        <p class="footer_des">
+                            Câu chuyện của Evo Trang Sức bắt nguồn từ những thấu hiểu, cảm thông sâu sắc rất đời thường.
+                            Biết rằng cuộc sống không như mong đợi & đôi lúc yêu thương trốn tìm,
+                            Evo Trang Sức tin rằng mỗi món trang sức không dừng lại ở giá trị vật chất mà còn có sức mạnh khơi gợi, tôn vinh, những khoảnh khắc đẹp nhất, quý nhất của bạn & người thân yêu.
+                        </p>
+                        <div class="footer_phone">
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:0123456789" title="0123456789">0123 456 789</a></span>
+                            <p style="margin-top: 0;">Tất cả các ngày trong tuần</p>
+                        </div>
+                        <div class="footer_address">
+                            <p>
+                                Địa chỉ: 30 Đường 2/9, Phường Bình Hiên, Quận Hải Châu, Đà Nẵng
+                            </p>
+                        </div>
+                        <div class="footer_email">
+                            <a href="mailto:#" title="evoteamthemes@gmail.com">
+                                evoteamthemes@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="footer_subscribe">
+                            <h3>Đăng ký nhận tin</h3>
+                            <p>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
+                            <form id="mc-form" class="newsletter-form has-validation-callback" novalidate="true">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Địa chỉ Email">
+                                    <span class="input-group-append">
+                                        <button class="btn btn-default" type="submit" aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row footer_option">
+                            <div class="col-xl-6 col-lg-6 col-sm-6 col-6">
+                                <h3>THÔNG TIN CÔNG TY</h3>
+                                <ul class="list-menu has-click">
+
+                                    <li><a href="/" title="Trang chủ">Trang chủ</a></li>
+
+                                    <li><a href="/Home/Intro" title="Giới thiệu">Giới thiệu</a></li>
+
+                                    <li><a href="/home/product" title="Sản phẩm">Sản phẩm</a></li>
+
+                                    <li><a href="#" title="Tin tức">Tin tức</a></li>
+
+                                    <li><a href="/Home/Contact" title="Liên hệ">Liên hệ</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-sm-6 col-6">
+                                <h3>Hỗ trợ khách hàng</h3>
+                                <ul class="list-menu has-click">
+
+                                    <li><a href="/" title="Trang chủ">Trang chủ</a></li>
+
+                                    <li><a href="/Home/Intro" title="Giới thiệu">Giới thiệu</a></li>
+
+                                    <li><a href="/home/product" title="Sản phẩm">Sản phẩm</a></li>
+
+                                    <li><a href="#" title="Tin tức">Tin tức</a></li>
+
+                                    <li><a href="/Home/Contact" title="Liên hệ">Liên hệ</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COPY RIGHT -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <span>© Bản quyền thuộc về <b>Evo Themes</b> | Cung cấp bởi <a href="#" title="Sapo">Sapo</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACK TO TOP-->
+        <div id="backtotop" onclick="backToTop()">
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </div>
+</body>
+<script src="~/js/index.js"></script>
+<script src="~/js/all.js"></script>
+<script src="~/js/list_store.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.4.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+
+<script id='out-cart' type='text/x-jQuery-tmpl'>
+    <ul>
+        {{tmpl(listCart) '#item-list'}}
+    </ul>
+    <div class="row justify-content-between total-money">
+        <h5>Tổng cộng:</h5>
+        <h5 class="total-money-price"  data-total-price="${Total}">${convertToVND(Total)}</h5>
+    </div>
+    <div class="row justify-content-between option">
+        <a href="/home/cart"><h6>Thanh Toán</h6></a>
+        <a href="/home/cart"><h6>Giỏ Hàng</h6></a>
+    </div>
+</script>
+
+<script id="item-list" type="text/x-jQuery-tmpl">
+    <li class="row">
+        <div class="cart_img col-4" style="padding:0px">
+            <img src="/images/index/content/${AnhDaiDien}" alt="" width="100%">
+        </div>
+        <div class="cart_info col-6" style="padding:0px">
+            <h3>${TenSanPham}</h3>
+            <h6 class="product_price">${convertToVND(GiaBan)}</h6>
+            <div class="cart_quantity">
+                <button class="btn-sub" data-id="${Id}" data-price="${GiaBan}">
+                    <h6>-</h6>
+                </button>
+                <input type="number" disabled min="1" max="5" id="cart_${Id}" class="product_quantity" value="${SoLuong}">
+                <button class="btn-add" data-id="${Id}" data-price="${GiaBan}">
+                    <h6>+</h6>
+                </button>
+            </div>
+        </div>
+        <div class="cart_delete" style="padding:0px" data-id="${Id}">
+            Bỏ
+        </div>
+    </li>
+</script>
+
+<script type="text/javascript">
+    var listCart = getCookie("listCart");
+    var total = getCookie("total");
+    var countCart = getCookie("countCart");
+
+    if (listCart != null && listCart != "") {
+        var listCartParse = JSON.parse(listCart);
+        var data = {};
+        data.Total = total;
+        data.listCart = listCartParse;
+      
+        $("#out-cart").tmpl(data).appendTo("#container-cart");
+
+        $(".btn-sub").click(function () {
+            var id = $(this).attr("data-id");
+            var price = $(this).attr("data-price");
+
+            if ( $("#cart_" + id).val() != 1) {
+                $("#cart_" + id).val(parseInt($("#cart_" + id).val()) - 1);
+
+                var total = $(".total-money-price").attr("data-total-price");
+
+                $(".total-money-price").attr("data-total-price", parseFloat(total) - parseFloat(price));
+
+                var txt = convertToVND(parseFloat(total) - parseFloat(price));
+                $(".total-money-price").text(txt);
+            }
+        })
+
+        $(".btn-add").click(function () {
+            var id = $(this).attr("data-id");
+            var price = $(this).attr("data-price");
+            if ($("#cart_" + id).val() != 5) {
+                
+                var count = parseInt($("#cart_" + id).val()) + 1;
+                var total = $(".total-money-price").attr("data-total-price");
+
+                $("#cart_" + id).val(count);
+                $(".total-money-price").attr("data-total-price", parseFloat(price) + parseFloat(total));
+
+                var txt = convertToVND(parseFloat(price) + parseFloat(total));
+                $(".total-money-price").text(txt);
+            }
+        })
+
+        $(".cart_delete").click(function(){
+            var idDH = $(this).attr("data-id");
+            $.ajax({
+                url: "/home/RemoveCart",
+                type: "get",
+                data: {
+                    idDH : idDH
+                },
+                success: (res) => {
+                    if(res.success) {
+                        location.reload();
+                    }
+                },
+                error: (err) => {
+                    alert(err);
+                }
+            })
+        });
+    }
+
+    if(countCart != "" && countCart != "0") {
+        $("#cart-id").append('<span class="total-cart">'+ countCart +'</span>');
+    }
+
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function convertToVND(x) {
+        var res = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(x);
+        return res;
+    }
+</script>
+
+</html>

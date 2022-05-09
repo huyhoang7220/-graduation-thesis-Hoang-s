@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Tạo mới danh mục";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+<div style="padding: 0 50px">
+    <h4 style="color:red">Tạo mới danh mục</h4>
+    <div style="display:flex">
+        <div class="container-info" style="flex:1;background-color: #e7e7e7;    padding: 10px 50px;
+    border-radius: 6px;">
+            @if (TempData["Message"] != null)
+            {
+                <div class="alert alert-success alert-dismissible">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Thông báo !</strong> @TempData["Message"]
+                </div>
+            }
+            @using (Html.BeginForm("Create", "Category", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @*<div style="color:blue">Thông tin lưu trú</div>*@
+
+                @*<div style="color:red">Dấu (*): Trường bắt buộc nhập</div>*@
+                <div class="form-group row" style="margin-top:10px">
+                    <label for="Ten" class="col-sm-3 col-form-label">Tên danh mục<span style="color:red">*</span></label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" name="Ten" id="Ten" placeholder="Tên danh mục" value="" required>
+                    </div>
+                </div>
+
+                <div class="form-group row" style="margin-top:10px">
+                    <label for="Gia" class="col-sm-3 col-form-label">Ảnh đại diện<span style="color:red">*</span></label>
+                    <div class="col-sm-6">
+                        @Html.TextBox("file", "", new { type = "file" })
+                    </div>
+                </div>
+
+                <div style="display:flex; justify-content:center">
+                    <button class="btn-back" style="margin-top:20px; padding:10px 30px; background-color:green; color:#ffffff; border-radius:6px;margin-right:10px">
+                        <a style="color:#ffffff;" href="/User/index">Danh sách danh mục</a>
+                    </button>
+                    <button type="submit" class="btn-edit" style="margin-top:20px; padding:10px 30px; background-color:green; color:#ffffff; border-radius:6px">
+                        Tạo mới
+                    </button>
+
+                </div>
+            }
+        </div>
+    </div>
+</div>

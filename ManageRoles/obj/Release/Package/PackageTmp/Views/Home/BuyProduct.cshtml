@@ -1,0 +1,264 @@
+﻿@{
+    ViewBag.Title = "Mua hàng";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+@model ManageRoles.ViewModels.SanPhamModel
+
+<link rel="stylesheet" href="~/Template/product_detail/style.css">
+<link rel="stylesheet" href="~/Template/product_detail/responsive.css">
+
+<!-- PATH BAR -->
+<div class="path-bar">
+    <div class="container">
+        <div class="row">
+            <a href="#">Trang chủ</a>
+            <span>/</span>
+            <a href="#">Mua hàng</a>
+            <span>/</span>
+            <a href="#">@Model.Ten</a>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="detail_right col-xl-6 col-lg-6">
+                <div class="detail_info clearfix">
+                    <h1>@Model.Ten</h1>
+                    <input hidden type="text" name="name" id="id_sp" value="@Model.Id" />
+                    <input hidden type="text" name="name" id="id_dh" value="@ViewBag.IdDH" />
+                    
+                    <div class="info_id clearfix">
+                        <div>
+                            <span class="">Mã sản phẩm:</span>
+                            <span content="Đang cập nhật"><strong>(Đang cập nhật...)</strong></span>
+                        </div>
+                        <div>
+                            <span class="">Thương hiệu:</span>
+                            <span> <strong>&nbsp;@ViewBag.NhaSX</strong> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail_status">
+                    <span>Tình trạng:</span>
+
+                    <span class="span-color">&nbsp;&nbsp;Còn hàng</span>
+                </div>
+                <div class="detail_price">
+                    <span class="price-sale">
+                        @String.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:0,00}", Model.Gia) ₫
+                    </span>
+
+                    <span class="price-old">1.500.000₫ </span>
+                    <span class="price-save" style="display: block;">
+                        Tiết kiệm:
+                        <span>458.000₫</span>
+                    </span>
+                </div>
+                <div class="row detail_decision">
+                    <div class="detail_quantity">
+                        <button onclick="
+    if (document.getElementById('number_quantity').value > 1) {
+        document.getElementById('number_quantity').value = parseInt(document.getElementById('number_quantity').value) - 1
+    }">
+                            -
+                        </button>
+                        <input type="number" value="@ViewBag.SoLuong" max="100" maxlength="3" id="number_quantity"
+                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <button onclick="
+    if (document.getElementById('number_quantity').value < 100) {
+        document.getElementById('number_quantity').value = parseInt(document.getElementById('number_quantity').value) + 1
+    }">
+                            +
+                        </button>
+                    </div>
+                  
+                </div>
+                <div class="call-and-payment">
+                    Gọi <a href="tel:0123456789" title="0123456789">0123 456 789</a> để được tư vấn và mua hàng.
+                </div>
+                <div class="detail_policy">
+                    <ul class="listinfo">
+                        <li>
+                            <img src="~/images/product_detail/content/listinfo1.svg" alt="Miễn phí đổi 30 ngày">
+                            <p>Miễn phí đổi 30 ngày</p>
+                        </li>
+                        <li>
+                            <img src="~/images/product_detail/content/listinfo2.svg" alt="Đúng chất lượng kim cương">
+                            <p>Đúng chất lượng kim cương</p>
+                        </li>
+                        <li>
+                            <img src="~/images/product_detail/content/listinfo3.svg" alt="Đúng hàm lượng">
+                            <p>Đúng hàm lượng</p>
+                        </li>
+                        <li>
+                            <img src="~/images/product_detail/content/listinfo4.svg" alt="Bảo hành chính hãng">
+                            <p>Bảo hành chính hãng</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detail_des">
+                    <div class="title" onclick="this.classList.toggle('title-active'); this.nextElementSibling.classList.toggle('drop_content-show')">
+                        <p>Mô tả</p>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="drop_content">
+                        <p>
+                            Nhẫn Đá quý tự nhiên Citrine 6mm chế tác bằng Bạc cao cấp, trang sức nữ thiết kế kiểu bông hoa cẩn đá tấm đẹp tinh tế.
+                        </p>
+                        <p>
+                            Natural Round cut Citrine Ring in Sterling Silver.
+                            Flower Gemstone Ring for Women.
+                        </p>
+                        <p>
+                            Citrine, Thạch Anh vàng, diệu thạch cho sự giàu sang và tiền tài, mang đến cho tâm hồn bạn sự ấp áp của ánh sáng ngập tràn.
+                            Citrine làm kích hoạt não bộ, khơi dậy những ý tưởng sáng tạo, giúp đầu óc có được sự tỉnh táo, sáng suốt và lạc quan yêu đời.
+                        </p>
+                        <ul>
+                            <li>
+                                Đá quý tự nhiên Citrine hợp Mệnh Kim tương sinh và mệnh Thổ tương hợp.
+                            </li>
+                            <li>
+                                Đá quý thiên nhiên Citrine Hộ Mệnh cho bạn Sinh nhật tháng Mười Một, hay Cung Hoàng đạo Scorpio / Thiên Yết / Hổ Cáp / Bọ Cạp ngày sinh từ 23/10 - 22/11, hay Tuổi Dậu.
+                            </li>
+                            <li>
+                                Đá quý truyền thống kỷ niệm cho 13 năm ngày cưới.
+                            </li>
+                            <li>
+                                Giác cắt đá quý: Tròn, Round cut
+                            </li>
+                            <li>
+                                Kích thước đá quý: 6.0 mm
+                            </li>
+                            <li>
+                                Đá tấm: Cz
+                            </li>
+                            <li>
+                                Chất liệu Bạc 925 xi Rhodium cùng nước xi Vàng trắng nên đẹp và bền màu
+                            </li>
+                            <li>
+                                Miễn phí Xi sửa cho khách hàng
+                            </li>
+                            <li>
+                                Trang sức Bạc Bảo hành 6 tháng.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="detail_review">
+                    <div class="title" onclick="this.classList.toggle('title-active'); this.nextElementSibling.classList.toggle('drop_content-show')">
+                        <p>Giới thiệu</p>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="drop_content">
+                        <p>Điều Evo Trang Sức trân quý nhất là để yêu thương luôn kề bên bạn không rời theo từng sản phẩm trang sức bạn đeo bên mình. Không chỉ những cột mốc quan trọng, Evo Trang Sức nhận diện &amp; “bắt trọn” được thương yêu từ những điều bình dị nhất, đời thường nhất.</p>
+                        <h2>TRIẾT LÝ SẢN PHẨM</h2>
+                        <p>Điều Evo Trang Sức trân quý nhất là để yêu thương luôn kề bên bạn không rời theo từng sản phẩm trang sức bạn đeo bên mình.</p>
+                        <p>Không chỉ những cột mốc quan trọng, Evo Trang Sức nhận diện &amp; “bắt trọn” được thương yêu từ những điều bình dị nhất, đời thường nhất. Từ đó, từng sản phẩm được thổi hồn và mang đậm chất riêng cảm xúc để trao trọn cho bản thân cùng người thương yêu.</p>
+                        <h2>TRIẾT LÝ SÁNG TẠO</h2>
+                        <p>Sáng tạo tại Evo Trang Sức là sự hòa quyện giữa am hiểu &amp; đam mê, giữa chuẩn xác &amp; bay bổng, giữa nghệ thuật chế tác kỳ công và triết lý nhân văn sâu sắc. Đó là:</p>
+                        <p><strong>Am hiểu về kỹ thuật</strong>&nbsp;đi chung với am hiểu tâm lý người đeo trang sức, từ việc sàng lọc chất liệu vàng, đá quý, kim cương đến các đòi hỏi nghiêm ngặt trong các khâu chế tác, đáp ứng tối ưu nhu cầu đeo trang sức cho mọi dịp yêu thương</p>
+                        <p><strong>Niềm đam mê, tận tâm của những nghệ nhân tài hoa</strong>&nbsp;trong và ngoài nước với bàn tay tỉ mỉ, tinh tế, mang lại cảm giác thoải mái, dễ chịu nhất khi đeo trang sức</p>
+                        <p><strong>Chuẩn xác trong nghệ thuật chế tác</strong>, từ đường nét đến hàm lượng/ trọng lượng vàng để mang đến một sản phẩm có giá trị chân thật và minh bạch</p>
+                        <p><strong>Sự bay bổng, lấy yêu thương là nguồn cảm hứng</strong>&nbsp;sáng tạo bất tận cho bất kỳ kiểu dáng thiết kế riêng biệt đáp ứng nhu cầu yêu theo cách riêng của từng người</p>
+                        <p><strong>Tính nhân văn được đề cao</strong>&nbsp;với nguồn sản phẩm sạch mang tính đạo đức. Từng viên kim cương tuấn thủ đúng chuẩn quốc tế Kimberley Process, để từng sản phẩm trang&nbsp;sức mang đến cảm xúc yêu trọn vẹn.&nbsp;</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-xl-6 col-lg-6 detail_left">
+                <h3>THÔNG TIN KHÁCH HÀNG</h3>
+                <hr>
+                <div class="row">
+                    <div class="info_id clearfix">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Tên khách hàng</span>
+                            </div>
+                            <input id="hoten" value="@ViewBag.TaiKhoan.HoTen @ViewBag.TaiKhoan.Ten" type="text" class="form-control" placeholder="Tên khách hàng" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Điện thoại</span>
+                            </div>
+                            <input id="dt" value="@ViewBag.TaiKhoan.DienThoai" type="text" class="form-control" placeholder="Điện thoại" aria-label="Phone" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Địa chỉ</span>
+                            </div>
+                            <input id="diachi" value="@ViewBag.TaiKhoan.DiaChi" type="text" class="form-control" placeholder="Địa chỉ" aria-label="Address" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3" style="display: flex; justify-content: space-evenly;">
+                            <div>
+                                <input type="radio" id="tannoi" name="fav_where" value="1" checked>
+                                <label for="tannoi">Giao tận nơi</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="shop" name="fav_where" value="2">
+                                <label for="shop">Nhận tại shop</label>
+                            </div> 
+                        </div>
+                        <button class="btn btn-success float-right" id="btn-order">
+                            Đặt hàng
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.4.js"></script>
+
+<script>
+    $("#btn-order").click(function () {
+
+        var fav_where = $('input[name="fav_where"]:checked').val();
+        var diachiGiao = "";
+
+        if (fav_where == 1) {
+            diachiGiao = "Giao tận nơi: Họ tên: " + $("#hoten").val() + ", Địa chỉ: " + $("#diachi").val() + ", Điện thoại: " + $("#dt").val();
+        } else {
+            diachiGiao = "Nhận tại shop";
+        }
+        var type = 0;
+        if ($("#id_dh").val() != -1) {
+            type = 1;
+        }
+        $.ajax({
+            type: "Post",
+            url: "/Home/OrderCart",
+            data: {
+                soLuong: parseInt($("#number_quantity").val()),
+                idSP: parseInt($("#id_sp").val()),
+                idDH: parseInt($("#id_dh").val()),
+                type: type,
+                diachiGiao: diachiGiao
+            },
+            success: (res) => {
+                if (res.success) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: "Đặt hàng thành công",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                }
+            },
+            error: (err) => {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'error',
+                    title: err,
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            }
+        })
+    });
+</script>
+<script src="~/js/product_detail.js"></script>

@@ -1,0 +1,79 @@
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+D:\R&DProjects\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+D:\R&DProjects\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+D:\R&DProjects\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\R&DProjects\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Web\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+E:\Web\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+E:\Web\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+E:\Web\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Web2\ManageRoles\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+E:\Web2\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+E:\Web2\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+E:\Web2\ManageRoles\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+E:\BanHang\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+E:\BanHang\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+E:\BanHang\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+E:\BanHang\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+E:\BanHang\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\BanHang\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+E:\BanHang\ManageRoles.Models\obj\Debug\ManageRoles.Models.csprojResolveAssemblyReference.cache
+E:\BanHang\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+E:\BanHang\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\System.Web.Mvc.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\System.Web.Mvc.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Debug\ManageRoles.Models.csproj.AssemblyReference.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Debug\ManageRoles.Models.csproj.CoreCompileInputs.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Debug\ManageRoles.Models.csproj.CopyComplete
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Debug\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\obj\Debug\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\Facebook.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles.Models\bin\Debug\Facebook.xml

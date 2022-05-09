@@ -1,0 +1,104 @@
+﻿@{
+    ViewBag.Title = "Cập nhật thông tin sản phẩm";
+    Layout = "~/Views/Shared/_LayoutSuperAdmin.cshtml";
+}
+
+@model ManageRoles.ViewModels.SanPhamModel
+
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<div style="padding: 0 50px">
+    <h4 style="color:red">Cập nhật thông tin sản phẩm</h4>
+   <div style="display:flex">
+       <div class="container-info" style="flex:1;background-color: #e7e7e7;    padding: 10px 50px;
+    border-radius: 6px;">
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success alert-dismissible">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Thông báo !</strong> @TempData["Message"]
+            </div>
+        }
+        @using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @*<div style="color:blue">Thông tin lưu trú</div>*@
+            <input type="text" class="form-control hidden" id="Id" name="Id" placeholder="" value="@Model.Id">
+            @*<div style="color:red">Dấu (*): Trường bắt buộc nhập</div>*@
+            <div class="form-group row" style="margin-top:10px">
+                <label for="Ten" class="col-sm-3 col-form-label">Tên sản phẩm <span style="color:red">*</span></label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="Ten" id="Ten" placeholder="Tên sản phẩm" value="@Model.Ten">
+                </div>
+            </div>
+
+            <div class="form-group row" style="margin-top:10px">
+                <label for="Gia" class="col-sm-3 col-form-label">Giá sản phẩm <span style="color:red">*</span></label>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control" name="Gia" id="Gia" placeholder="Giá sản phẩm" value="@Model.Gia">
+                </div>
+            </div>
+
+            <div class="form-group row" style="margin-top:10px">
+                <label for="IdNhaSanXuat" class="col-sm-3 col-form-label">Nhà sản xuất<span style="color:red">*</span></label>
+                <div class="col-sm-6">
+                    <select class="form-control" name="IdNhaSanXuat" id="IdNhaSanXuat"></select>
+                </div>
+            </div>
+
+            <div class="form-group row" style="margin-top:10px">
+                <label for="IdDanhMuc" class="col-sm-3 col-form-label">Danh mục<span style="color:red">*</span></label>
+                <div class="col-sm-6">
+                    <select class="form-control" name="IdDanhMuc" id="IdDanhMuc"></select>
+                </div>
+            </div>
+
+            <div class="form-group row" style="margin-top:10px">
+                <label for="AnhDD" class="col-sm-3 col-form-label">Ảnh đại diện<span style="color:red">*</span></label>
+                <input type="text" class="form-control hidden" name="AnhDaiDien" id="AnhDaiDien" placeholder="" value="@Model.AnhDaiDien">
+                <div class="col-sm-6">
+                    @Html.TextBox("file", "", new { type = "file" })
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content:center">
+                <button class="btn-back" style="margin-top:20px; padding:10px 30px; background-color:green; color:#ffffff; border-radius:6px;margin-right:10px">
+                    <a style="color:#ffffff;" href="/Product/index">Danh sách sản phẩm</a>
+                </button>
+                <button type="submit" class="btn-edit" style="margin-top:20px; padding:10px 30px; background-color:green; color:#ffffff; border-radius:6px">
+                    Cập nhật
+                </button>
+
+            </div>
+        }
+       </div>
+      
+   </div>
+
+   
+</div>
+
+<script>
+    $(document).ready(function () {
+        var nhaSX = @Html.Raw(Json.Encode(ViewBag.NhaSX));
+        var danhMuc = @Html.Raw(Json.Encode(ViewBag.DanhMuc));
+
+        var model = @Html.Raw(Json.Encode(@Model));
+
+        nhaSX.forEach((item) => {
+            $("#IdNhaSanXuat").append('<option value="'+item.Id+'">'+item.Ten+'</option>');
+        });
+
+        $("#IdNhaSanXuat").val(model.IdNhaSanXuat);
+
+        danhMuc.forEach((item) => {
+            $("#IdDanhMuc").append('<option value="'+item.Id+'">'+item.Ten+'</option>');
+        });
+
+        $("#IdDanhMuc").val(model.IdDanhMuc);
+
+        $('#IdDanhMuc').select2();
+    })
+</script>

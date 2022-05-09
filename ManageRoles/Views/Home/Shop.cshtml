@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<!-- CONTENT -->
+<div class="content">
+    <div class="content_product-best">
+        <div class="container text-center title">
+            @*<span>Evo Trang Sức</span>*@
+            <h3><a href="san-pham-moi" title="Sản phẩm nổi bật">Tình trạng đơn hàng</a></h3>
+            <p>Hãy đến với chúng tôi để có những món quà phù hợp và ý nghĩa nhất.</p>
+        </div>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-sm-12 list_product-best">
+                    <div class="row flex-wrap justify-content-start" style="padding-right: 15px;">
+                        @if(Enumerable.Count(ViewBag.ListProduct) >0)
+                        {
+                            foreach (var item in @ViewBag.ListProduct)
+                            {
+                                <div class="item_product">
+                                    <div class="tag-sale">
+                                        <span>-31%</span>
+                                    </div>
+                                    <div class="product_image">
+                                        <a href="/Home/ProductDetail/@item.IdSP">
+                                            <img src="~/images/index/content/@item.AnhDaiDien" alt="" width="200px">
+                                        </a>
+
+                                        <div class="option-buy row justify-content-between">
+                                            <p style="background:green">@item.TinhTrangDonHang</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_info">
+                                        <p class="product-name">
+                                            <a href='/Home/ProductDetail/@item.IdSP' title='@item.TenSanPham'>@item.TenSanPham</a>
+                                        </p>
+                                        <div class="product-price text-center">
+                                            <p class="price-real">
+                                                @item.GiaBan ₫
+                                                <span class="price-before-sale">
+                                                    <del class="">1.500.000₫</del>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }else
+                        {
+                            <h4>Không tìm thấy sản phẩm nào</h4>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

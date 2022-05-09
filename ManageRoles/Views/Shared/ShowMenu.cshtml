@@ -1,0 +1,96 @@
+﻿@using ManageRoles.Repository
+
+@{
+    string userId = "";
+    string role = "";
+    if (Request.Cookies["userInfo"] != null)
+    {
+        userId = Request.Cookies["userInfo"]["UserId"];
+        role = Request.Cookies["userInfo"]["Role"];
+    }
+}
+
+<style>
+    #side-menu li a {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+     #side-menu li a i{
+        margin-right: 10px !important;
+        color: #640a1a !important;
+        font-size: 20px !important;
+    }
+</style>
+
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+            @*<li>
+                <a href="/SuperDashboard/Dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+            </li>*@
+            <li>
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Quản lý đơn đặt hàng<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/Ordered/Index">Danh sách</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-user fa-fw"></i>Quản lý khách hàng<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/User/index">Danh sách</a>
+                    </li>
+                    <li>
+                        <a href="/User/Create">Tạo mới</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-home fa-fw"></i>Quản lý sản phẩm<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/Product/index">Danh sách</a>
+                    </li>
+                    <li>
+                        <a href="/Product/Create">Tạo mới</a>
+                    </li>
+                </ul>
+
+            </li>
+      
+            <li>
+                <a href="#"><i class="fa fa-product-hunt fa-fw"></i>Quản lý danh mục<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/Category/index">Danh sách</a>
+                    </li>
+                    <li>
+                        <a href="/Category/Create">Tạo mới</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-product-hunt fa-fw"></i>Quản lý slide<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/Slide/index">Danh sách</a>
+                    </li>
+                    <li>
+                        <a href="/Slide/Create">Tạo mới</a>
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+</div>

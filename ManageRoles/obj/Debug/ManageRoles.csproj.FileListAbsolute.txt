@@ -1,0 +1,685 @@
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+D:\R&DProjects\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\WebGrease.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+D:\R&DProjects\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+D:\R&DProjects\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+D:\R&DProjects\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\EntityFramework.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\EntityFramework.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Unity.Container.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\AutoMapper.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+D:\R&DProjects\ManageRoles\ManageRoles\bin\AutoMapper.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+D:\R&DProjects\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Dapper.dll
+D:\R&DProjects\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Container.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\WebGrease.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+D:\Projects\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Container.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\WebGrease.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+C:\Users\1438\Documents\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Container.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\WebGrease.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\AutoMapper.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+D:\Projects\_Roles_project\ManageRoles\v1\ManageRoles\ManageRoles\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\AutoMapper.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\EntityFramework.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Unity.Container.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\WebGrease.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Dapper.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\AutoMapper.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\EntityFramework.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+D:\Download\CustomRoleManager-master\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+D:\Download\Web\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\AutoMapper.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\EntityFramework.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Unity.Container.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\WebGrease.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\Dapper.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\AutoMapper.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\EntityFramework.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+D:\Download\Web\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+D:\Download\Web\ManageRoles\ManageRoles\bin\Dapper.xml
+D:\Download\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+D:\Download\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+D:\Download\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+E:\Web\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.dll
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+E:\Web\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+E:\Web\ManageRoles\ManageRoles\bin\AutoMapper.dll
+E:\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+E:\Web\ManageRoles\ManageRoles\bin\EntityFramework.dll
+E:\Web\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+E:\Web\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+E:\Web\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+E:\Web\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+E:\Web\ManageRoles\ManageRoles\bin\Unity.Container.dll
+E:\Web\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+E:\Web\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+E:\Web\ManageRoles\ManageRoles\bin\WebGrease.dll
+E:\Web\ManageRoles\ManageRoles\bin\Dapper.dll
+E:\Web\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+E:\Web\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+E:\Web\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+E:\Web\ManageRoles\ManageRoles\bin\AutoMapper.xml
+E:\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+E:\Web\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+E:\Web\ManageRoles\ManageRoles\bin\EntityFramework.xml
+E:\Web\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+E:\Web\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+E:\Web\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+E:\Web\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+E:\Web\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+E:\Web\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+E:\Web\ManageRoles\ManageRoles\bin\Dapper.xml
+E:\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+E:\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+E:\Web\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\csc.exe
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\vbc.exe
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe
+E:\Web2\ManageRoles\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.dll.config
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.dll
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\Antlr3.Runtime.dll
+E:\Web2\ManageRoles\ManageRoles\bin\AutoMapper.dll
+E:\Web2\ManageRoles\ManageRoles\bin\CaptchaMvc.dll
+E:\Web2\ManageRoles\ManageRoles\bin\EntityFramework.dll
+E:\Web2\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.dll
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.Models.dll
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.Repository.dll
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Newtonsoft.Json.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.ValueTuple.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Helpers.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Mvc.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Optimization.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Razor.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Unity.Abstractions.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Unity.Container.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Unity.Mvc.dll
+E:\Web2\ManageRoles\ManageRoles\bin\WebActivatorEx.dll
+E:\Web2\ManageRoles\ManageRoles\bin\WebGrease.dll
+E:\Web2\ManageRoles\ManageRoles\bin\Dapper.dll
+E:\Web2\ManageRoles\ManageRoles\bin\System.Linq.Dynamic.dll
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.Models.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.Repository.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\ManageRoles.ViewModels.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\AutoMapper.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\AutoMapper.xml
+E:\Web2\ManageRoles\ManageRoles\bin\CaptchaMvc.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\CaptchaMvc.xml
+E:\Web2\ManageRoles\ManageRoles\bin\EntityFramework.xml
+E:\Web2\ManageRoles\ManageRoles\bin\EntityFramework.SqlServer.xml
+E:\Web2\ManageRoles\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.ValueTuple.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Helpers.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Mvc.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Optimization.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.Razor.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+E:\Web2\ManageRoles\ManageRoles\bin\System.Web.WebPages.Razor.xml
+E:\Web2\ManageRoles\ManageRoles\bin\Unity.Mvc.xml
+E:\Web2\ManageRoles\ManageRoles\bin\Antlr3.Runtime.pdb
+E:\Web2\ManageRoles\ManageRoles\bin\Newtonsoft.Json.xml
+E:\Web2\ManageRoles\ManageRoles\bin\Dapper.xml
+E:\Web2\ManageRoles\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+E:\Web2\ManageRoles\ManageRoles\obj\Debug\ManageRoles.dll
+E:\Web2\ManageRoles\ManageRoles\obj\Debug\ManageRoles.pdb
+E:\BanHang\ManageRoles\bin\roslyn\csc.exe
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BanHang\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BanHang\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+E:\BanHang\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+E:\BanHang\ManageRoles\bin\roslyn\vbc.exe
+E:\BanHang\ManageRoles\bin\roslyn\VBCSCompiler.exe
+E:\BanHang\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+E:\BanHang\ManageRoles\bin\ManageRoles.dll.config
+E:\BanHang\ManageRoles\bin\ManageRoles.dll
+E:\BanHang\ManageRoles\bin\ManageRoles.pdb
+E:\BanHang\ManageRoles\bin\Antlr3.Runtime.dll
+E:\BanHang\ManageRoles\bin\AutoMapper.dll
+E:\BanHang\ManageRoles\bin\CaptchaMvc.dll
+E:\BanHang\ManageRoles\bin\EntityFramework.dll
+E:\BanHang\ManageRoles\bin\EntityFramework.SqlServer.dll
+E:\BanHang\ManageRoles\bin\ManageRoles.Models.dll
+E:\BanHang\ManageRoles\bin\ManageRoles.Repository.dll
+E:\BanHang\ManageRoles\bin\ManageRoles.ViewModels.dll
+E:\BanHang\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BanHang\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+E:\BanHang\ManageRoles\bin\Newtonsoft.Json.dll
+E:\BanHang\ManageRoles\bin\System.ValueTuple.dll
+E:\BanHang\ManageRoles\bin\System.Web.Helpers.dll
+E:\BanHang\ManageRoles\bin\System.Web.Mvc.dll
+E:\BanHang\ManageRoles\bin\System.Web.Optimization.dll
+E:\BanHang\ManageRoles\bin\System.Web.Razor.dll
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.dll
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.Razor.dll
+E:\BanHang\ManageRoles\bin\Unity.Abstractions.dll
+E:\BanHang\ManageRoles\bin\Unity.Container.dll
+E:\BanHang\ManageRoles\bin\Unity.Mvc.dll
+E:\BanHang\ManageRoles\bin\WebActivatorEx.dll
+E:\BanHang\ManageRoles\bin\WebGrease.dll
+E:\BanHang\ManageRoles\bin\ManageRoles.Models.pdb
+E:\BanHang\ManageRoles\bin\ManageRoles.Repository.pdb
+E:\BanHang\ManageRoles\bin\ManageRoles.ViewModels.pdb
+E:\BanHang\ManageRoles\bin\AutoMapper.pdb
+E:\BanHang\ManageRoles\bin\AutoMapper.xml
+E:\BanHang\ManageRoles\bin\CaptchaMvc.pdb
+E:\BanHang\ManageRoles\bin\CaptchaMvc.xml
+E:\BanHang\ManageRoles\bin\EntityFramework.xml
+E:\BanHang\ManageRoles\bin\EntityFramework.SqlServer.xml
+E:\BanHang\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BanHang\ManageRoles\bin\System.ValueTuple.xml
+E:\BanHang\ManageRoles\bin\System.Web.Helpers.xml
+E:\BanHang\ManageRoles\bin\System.Web.Mvc.xml
+E:\BanHang\ManageRoles\bin\System.Web.Optimization.xml
+E:\BanHang\ManageRoles\bin\System.Web.Razor.xml
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.xml
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+E:\BanHang\ManageRoles\bin\System.Web.WebPages.Razor.xml
+E:\BanHang\ManageRoles\bin\Unity.Mvc.xml
+E:\BanHang\ManageRoles\bin\Antlr3.Runtime.pdb
+E:\BanHang\ManageRoles\bin\Newtonsoft.Json.xml
+E:\BanHang\ManageRoles\obj\Debug\ManageRoles.csprojResolveAssemblyReference.cache
+E:\BanHang\ManageRoles\obj\Debug\ManageRoles.dll
+E:\BanHang\ManageRoles\obj\Debug\ManageRoles.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\csc.exe
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\System.Collections.Immutable.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\System.Reflection.Metadata.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\vbc.exe
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\VBCSCompiler.exe
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\roslyn\VBCSCompiler.exe.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Antlr3.Runtime.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\AutoMapper.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\CaptchaMvc.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\EntityFramework.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\EntityFramework.SqlServer.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Models.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Repository.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.ViewModels.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Web.Infrastructure.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Newtonsoft.Json.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.ValueTuple.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Helpers.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Mvc.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Optimization.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Razor.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.Deployment.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.Razor.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Unity.Abstractions.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Unity.Container.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Unity.Mvc.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\WebActivatorEx.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\WebGrease.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Models.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Models.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Repository.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.Repository.dll.config
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\ManageRoles.ViewModels.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\AutoMapper.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\AutoMapper.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\CaptchaMvc.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\CaptchaMvc.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\EntityFramework.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\EntityFramework.SqlServer.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.ValueTuple.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Helpers.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Mvc.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Optimization.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.Razor.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.Deployment.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\System.Web.WebPages.Razor.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Unity.Mvc.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Antlr3.Runtime.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Newtonsoft.Json.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\obj\Debug\ManageRoles.csproj.AssemblyReference.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\obj\Debug\ManageRoles.csproj.CoreCompileInputs.cache
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\obj\Debug\ManageRoles.csproj.CopyComplete
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\obj\Debug\ManageRoles.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\obj\Debug\ManageRoles.pdb
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Facebook.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Facebook.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.AspNet.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.Core.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OAuth.Consumer.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OAuth.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OpenId.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Org.Mentalis.Security.Cryptography.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Mono.Math.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.AspNet.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.Core.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OAuth.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OAuth.Consumer.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OpenId.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Org.Mentalis.Security.Cryptography.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Mono.Math.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.Facebook.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Owin.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.Facebook.xml
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.Google.dll
+S:\tham khảo đồ án tốt nghiệp\đồ án\BanHang (2)\ManageRoles\bin\Microsoft.Owin.Security.Google.xml

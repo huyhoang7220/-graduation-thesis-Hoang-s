@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Liên hệ";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<link rel="stylesheet" href="~/Template/contact/style.css">
+<link rel="stylesheet" href="~/Template/contact/responsive.css">
+
+<!-- PATH BAR -->
+<div class="path-bar">
+    <div class="container">
+        <div class="row">
+            <a href="#">Trang chủ</a>
+            <span>/</span>
+            <a href="#">Liên Hệ</a>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+    <div class="container">
+        <div class="content_main row">
+            <div class="content_main_left col-xl-4 col-lg-4 col-sm-12">
+                <h3 class="left_title">Để lại tin nhắn</h3>
+                <p class="left_des">
+                    Điều Evo Trang Sức trân quý nhất là để yêu thương luôn kề bên bạn không rời theo từng sản phẩm trang sức bạn đeo bên mình.
+                    Không chỉ những cột mốc quan trọng, Evo Trang Sức nhận diện & “bắt trọn” được thương yêu từ những điều bình dị nhất, đời thường nhất.
+                </p>
+                <div class="contact_box">
+                    <div class="contact_icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact_info">
+                        30 Đường 2/9, Phường Bình Hiên, Quận Hải Châu, Đà Nẵng
+                    </div>
+                </div>
+                <div class="contact_box">
+                    <div class="contact_icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact_info">
+                        0794139616
+                    </div>
+                </div>
+                <div class="contact_box">
+                    <div class="contact_icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact_info">
+                        huyhoang7220@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="content_main_right col-xl-8 col-lg-8 col-sm-12">
+                <form accept-charset="utf-8" action="/contact" id="contact" method="post" class="has-validation-callback">
+                    <div class="form-signup clearfix">
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-12">
+                                <fieldset class="form-group has-error">
+                                    <label>Họ và tên<span class="required">*</span></label>
+                                    <input placeholder="Nhập họ và tên" type="text" name="contact_name" id="name" class="form-control  form-control-lg error" data-validation-error-msg="Không được để trống" data-validation="required" required="">
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <fieldset class="form-group has-error">
+                                    <label>Email<span class="required">*</span></label>
+                                    <input placeholder="Nhập địa chỉ Email" type="email" name="contact_email" data-validation="email" data-validation-error-msg="Email sai định dạng" id="email" class="form-control form-control-lg error" required="">
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <fieldset class="form-group">
+                                    <label>Điện thoại<span class="required">*</span></label>
+                                    <input placeholder="Nhập số điện thoại" type="tel" name="contact_phone" data-validation="tel" data-validation-error-msg="Không được để trống" id="tel" class="number-sidebar form-control form-control-lg" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-sm-12 col-xs-12">
+                                <fieldset class="form-group has-error">
+                                    <label>Nội dung<span class="required">*</span></label>
+                                    <textarea placeholder="Nội dung liên hệ" name="contact_body" id="comment" class="form-control form-control-lg error" rows="5" data-validation-error-msg="Không được để trống" data-validation="required" required="" style="resize: none;"></textarea>
+                                    <div class="pull-xs-left" style="margin-top:20px;">
+                                        <button type="submit" class="">Gửi tin nhắn</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="content_map col-xl-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.5216668448866!2d105.73388431467825!3d21.05181699236724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454f7e907b913%3A0xe0f24423122af0cf!2zTmjhu5VuIC0gxJBIIEPDtG5nIE5naGnhu4dwIEhO!5e0!3m2!1svi!2s!4v1602944024891!5m2!1svi!2s"
+                        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/contact.js"></script>

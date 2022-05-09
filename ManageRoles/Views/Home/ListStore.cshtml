@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Danh sách cửa hàng";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<link rel="stylesheet" href="~/Template/list_store/style.css">
+<link rel="stylesheet" href="~/Template/list_store/responsive.css">
+  <!-- PATH BAR -->
+<div class="path-bar">
+    <div class="container">
+        <div class="row">
+            <a href="#">Trang chủ</a>
+            <span>/</span>
+            <a href="#">Danh sách cửa hàng</a>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-sm-4 address pl-0">
+                <p class="address_title">
+                    Chọn tỉnh thành phố
+                </p>
+                <select name="city" id="" style="background-image: url('../images/list_store/select.svg');">
+                    <option value="">Hồ Chí Minh</option>
+                    <option value="">Huế</option>
+                    <option value="">Đà Nẵng</option>
+                </select>
+                <div class="address_list">
+                    <div class="address_item address_item-active">
+                        <p class="item_district">Quận 10</p>
+                        <p class="item_detail">138A Tô Hiến Thành, Phường 15, Quận 10, Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                    <div class="address_item">
+                        <p class="item_district">Cẩm Phả</p>
+                        <p class="item_detail">109 Nguyễn Văn Trỗi, TP Cẩm Phả, Quảng Ninh, Việt Nam</p>
+                    </div>
+                    <div class="address_item">
+                        <p class="item_district">Quận 10</p>
+                        <p class="item_detail">138A Tô Hiến Thành, Phường 15, Quận 10, Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                    <div class="address_item">
+                        <p class="item_district">Quận 10</p>
+                        <p class="item_detail">138A Tô Hiến Thành, Phường 15, Quận 10, Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                    <div class="address_item">
+                        <p class="item_district">Quận 10</p>
+                        <p class="item_detail">138A Tô Hiến Thành, Phường 15, Quận 10, Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-sm-8 map pr-0">
+                <div class="map_list">
+                    <div class="map_item map_item-active">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7446.827674560964!2d105.72723982382401!3d21.05612735641924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454570374c5e3%3A0xdeb4689fca01b0ff!2zTmjhu5VuLCBNaW5oIEtoYWksIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1603101829191!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="map_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.7453277018835!2d106.66581331467518!3d20.841987999504653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a7bdb4ed411%3A0xc173da3f140c38c4!2zQuG6v24geGUga2jDoWNoIE5p4buHbSBOZ2jEqWE!5e0!3m2!1svi!2s!4v1603103445359!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="map_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7446.827674560964!2d105.72723982382401!3d21.05612735641924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454570374c5e3%3A0xdeb4689fca01b0ff!2zTmjhu5VuLCBNaW5oIEtoYWksIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1603101829191!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="map_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7446.827674560964!2d105.72723982382401!3d21.05612735641924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454570374c5e3%3A0xdeb4689fca01b0ff!2zTmjhu5VuLCBNaW5oIEtoYWksIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1603101829191!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="map_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7446.827674560964!2d105.72723982382401!3d21.05612735641924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454570374c5e3%3A0xdeb4689fca01b0ff!2zTmjhu5VuLCBNaW5oIEtoYWksIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1603101829191!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="map_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7446.827674560964!2d105.72723982382401!3d21.05612735641924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454570374c5e3%3A0xdeb4689fca01b0ff!2zTmjhu5VuLCBNaW5oIEtoYWksIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1603101829191!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

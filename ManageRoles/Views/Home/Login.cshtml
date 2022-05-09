@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập tài khoản";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<link rel="stylesheet" href="~/Template/login/style.css">
+<link rel="stylesheet" href="~/Template/login/responsive.css">
+
+ <!-- PATH BAR -->
+<div class="path-bar">
+    <div class="container">
+        <div class="row">
+            <a href="#">Trang chủ</a>
+            <span>/</span>
+            <a href="#">Đăng nhập tài khoản</a>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="content container">
+    <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-7 col-sm-7 col-12">
+            <h3 class="text-center">ĐĂNG NHẬP TÀI KHOẢN</h3>
+            <div class="row justify-content-center social_login">
+                <a class="btn btn-facebook" href="/Home/LoginFacebook">
+                    <img width="129px" height="37px" alt="facebook-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg">
+                </a>
+                <a href="#">
+                    <img width="129px" height="37px" alt="google-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg">
+                </a>
+            </div>
+            <div class="line-throw text-center">
+                <span>hoặc</span>
+            </div>
+            @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+            {
+                <fieldset class="form-group mb-10">
+                    <label>Email<span class="required">*</span></label>
+                    <input placeholder="Nhập Địa chỉ Email" type="email" class="form-control form-control-lg" value="" name="email" id="email" required="" data-validation="email">
+                </fieldset>
+                <fieldset class="form-group mb-0">
+                    <label>Mật khẩu<span class="required">*</span></label>
+                    <input placeholder="Nhập Mật khẩu" type="password" class="form-control form-control-lg" value="" name="matkhau" id="matkhau">
+                </fieldset>
+                <a href="#" class="forget-password">Quên mật khẩu?</a>
+                <button class="" type="submit" value="Đăng nhập">Đăng nhập</button>
+                
+            }
+               
+            <div class="row justify-content-center">
+                <p style="width: 50%; color: #999; font-size: 12px;" class="text-center">
+                    Evo Trang Sức cam kết bảo mật và sẽ không bao giờ đăng
+                    hay chia sẻ thông tin mà chưa có được sự đồng ý của bạn.
+                </p>
+            </div>
+            <h6 class="check-sign-up">
+                BẠN CHƯA CÓ TÀI KHOẢN. ĐĂNG KÝ <a href="/home/signup">TẠI ĐÂY.</a>
+            </h6>
+        </div>
+    </div>
+</div>
+
+<script>
+    var message =   @Html.Raw(Json.Encode(ViewBag.Message));
+
+    if(message != null) {
+        if(message.Success) {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: message.Msg,
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }else if(!message.Success){
+            Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: message.Msg,
+                showConfirmButton: false,
+                timer: 3000
+            })
+        }
+    }
+
+
+</script>

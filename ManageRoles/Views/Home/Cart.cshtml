@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<!-- CONTENT -->
+<div class="content">
+    <div class="content_product-best">
+        <div class="container text-center title">
+            @*<span>Evo Trang Sức</span>*@
+            <h3><a href="san-pham-moi" title="Sản phẩm nổi bật">Giỏ hàng</a></h3>
+            <p>Hãy đến với chúng tôi để có những món quà phù hợp và ý nghĩa nhất.</p>
+        </div>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-sm-8 list_product-best">
+                    <div class="row flex-wrap justify-content-start" style="padding-right: 15px;">
+                        @if(Enumerable.Count(ViewBag.ListProduct) >0)
+                        {
+                            foreach (var item in @ViewBag.ListProduct)
+                            {
+                                <div class="item_product">
+                                    <div class="tag-sale">
+                                        <span>-31%</span>
+                                    </div>
+                                    <div class="product_image">
+                                        <a href="/Home/ProductDetail/@item.IdSP">
+                                            <img src="~/images/index/content/@item.AnhDaiDien" alt="" width="100%">
+                                        </a>
+
+                                        <div class="option-buy row justify-content-between">
+                                            <p onclick="buyProduct(@item.IdSP, @item.Id)">Đặt hàng</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_info">
+                                        <p class="product-name">
+                                            <a href='/Home/ProductDetail/@item.IdSP' title='@item.TenSanPham'>@item.TenSanPham</a>
+                                        </p>
+                                        <div class="product-price text-center">
+                                            <p class="price-real">
+                                                @String.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:0,00}", item.GiaBan) ₫
+                                                <span class="price-before-sale">
+                                                    <del class="">1.500.000₫</del>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }else
+                        {
+                            <h4>Không tìm thấy sản phẩm nào</h4>
+                        }
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-sm-4">
+                    <div class="flex-row">
+                        <div class="flex-row mt-2">
+                            <span style="font-size:20px">Tạm tính :</span>
+                            <span style="font-size:20px;font-weight:bold;float:right">@ViewBag.Total</span>
+                        </div>
+
+                        <div class="flex-row mt-2">
+                            <span style="font-size:20px">Thành tiền :</span>
+                            <span style="font-size:20px;color:#fec576;float:right">@ViewBag.Total</span>
+                        </div>
+
+                        <div class="flex-row mt-5">
+                            <a style="font-size:22px; color:greenyellow" href="/home/index">TIẾP TỤC MUA HÀNG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+        function getCookie(cname) {
+            let name = cname + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function buyProduct(id, idDH) {
+        var user = getCookie("userInfo");
+
+        if (user == "" || user == null) {
+            window.location.href = "/home/login";
+        } else {
+            window.location.href = "/home/BuyProduct?id=" + id + "&idDH=" + idDH;
+
+        }
+        }
+
+        function addProduct(id) {
+        var user = getCookie("userInfo");
+
+        if (user == "" || user == null) {
+            window.location.href = "/home/login";
+        } else {
+            $.ajax({
+                type: "post",
+                url: "/Home/AddToCart",
+                data: {
+                                        idSP: id
+                },
+                success: function (res) {
+                    if (res.success) {
+                    $.ajax({
+                                            type: "get",
+                        url: "/Home/ReloadCart",
+                        success: (ress) => {
+                            if (ress.success) {
+                                Swal.fire({
+                                    position: 'top-end',
+                                    icon: 'success',
+                                    title: "Đã thêm vào giỏ hàng",
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
+
+                                location.reload();
+                            }
+                        }
+                        })
+        } else {
+                        Swal.fire({
+                            position: 'top-end',
+        icon: 'error',
+        title: "Thêm vào giỏ hàng bị lỗi",
+        showConfirmButton: false,
+        timer: 1500
+                        })
+        }
+                },
+        error: function () {
+
+                }
+            })
+        }
+
+        }
+</script>
